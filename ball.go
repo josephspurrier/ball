@@ -12,7 +12,7 @@ type Ball struct {
 // New creates a new ball
 func New() *Ball {
 	b := &Ball{
-		color: "white",
+		color: "black",
 	}
 
 	return b
